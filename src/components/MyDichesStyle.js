@@ -40,15 +40,16 @@ export const ImageContainer = styled.div`
         }
         h3 {
             text-align: center;
-            font-size: 7.5px;
+            font-size: 7px;
+            padding: none;
         }
         p {
             text-align: center;
             font-weight: none;
             padding: none;
-            font-size: 7px;
+            font-size: 5px;
         }
         width: 100%;
-        height: 280px;
+        height: 210px;
     }
 `
