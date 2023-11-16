@@ -27,6 +27,7 @@ export const DescriptionContainer = styled.div`
     @media screen and (max-width: 768px) {
         p {
             font-size: 12px;
+            padding: 0.5rem;
         }
     }
 `

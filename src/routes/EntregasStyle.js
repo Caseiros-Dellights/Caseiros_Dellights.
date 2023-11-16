@@ -30,6 +30,7 @@ export const DescriptionDelivery = styled.div`
     @media screen and (max-width: 768px) {
         p {
             font-size: 12px;
+            padding: 0.5rem;
         }
     }
 `

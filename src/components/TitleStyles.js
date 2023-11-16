@@ -17,7 +17,7 @@ export const ButtonsContainer = styled.div`
     border-style: outset;
     border-color: #FFE4C4;
     border-radius: 20px;
-    height: 50px;
+    height: 45px;
     width: 90px;
     text-shadow: none;
     outline: none;
