@@ -7,7 +7,7 @@ export const Container = styled.div`
 
 export const ImageContainer = styled.div`
     width: 100%;
-    height: 460px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     border: 2px solid 	#FFF8DC;
@@ -36,16 +36,19 @@ export const ImageContainer = styled.div`
             height: 100%;
         }
         h3, p {
-            font-size: 7.5px;
+          padding: none;
         }
         h3 {
             text-align: center;
-            font-size: 8.5px;
+            font-size: 7.5px;
         }
         p {
-            text-align: justify;
+            text-align: center;
+            font-weight: none;
+            padding: none;
+            font-size: 7px;
         }
         width: 100%;
-        height: 300px;
+        height: 280px;
     }
 `

@@ -35,6 +35,11 @@ export const ButtonsContainer = styled.div`
             height: 35px;
             font-size: 7.5px;
         }
+        button:hover {
+            background: none;
+            color: none;
+            border: none;
+        }
     }
 `
 
