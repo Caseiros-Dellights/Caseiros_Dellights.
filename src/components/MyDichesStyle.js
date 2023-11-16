@@ -10,7 +10,6 @@ export const ImageContainer = styled.div`
     height: 450px;
     display: flex;
     flex-direction: column;
-    border: 2px solid 	#FFF8DC;
     img {
         width: 100%;
         height: 100%;
@@ -32,7 +31,10 @@ export const ImageContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         width: 100%;
-        height: 225px;
+        height: 270px;
+        img {
+            height: 100%;
+        }
         h3, p {
           padding: none;
         }
