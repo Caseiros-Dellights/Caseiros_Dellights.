@@ -50,6 +50,6 @@ export const ImageContainer = styled.div`
             font-size: 5px;
         }
         width: 100%;
-        height: 230px;
+        height: 250px;
     }
 `
