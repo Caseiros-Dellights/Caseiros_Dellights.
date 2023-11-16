@@ -31,10 +31,8 @@ export const ImageContainer = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        img {
-            width: 100%;
-            height: 100%;
-        }
+        width: 100%;
+        height: 225px;
         h3, p {
           padding: none;
         }
@@ -47,9 +45,7 @@ export const ImageContainer = styled.div`
             text-align: center;
             font-weight: none;
             padding: none;
-            font-size: 5px;
+            font-size: 5.5px;
         }
-        width: 100%;
-        height: 250px;
     }
 `
